@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18D38D0E28AD7B91008B4CAC /* HomeTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D38D0C28AD7B90008B4CAC /* HomeTabbarVC.swift */; };
+		18D38D0F28AD7B91008B4CAC /* HomeVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D38D0D28AD7B90008B4CAC /* HomeVC.storyboard */; };
+		18D38D1028AD8555008B4CAC /* TabBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49AE5DF42476543A00139E2E /* TabBarView.xib */; };
 		49AE5DE0247652FF00139E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE5DDF247652FF00139E2E /* AppDelegate.swift */; };
 		49AE5DE2247652FF00139E2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE5DE1247652FF00139E2E /* SceneDelegate.swift */; };
 		49AE5DE4247652FF00139E2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AE5DE3247652FF00139E2E /* ViewController.swift */; };
@@ -18,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D38D0C28AD7B90008B4CAC /* HomeTabbarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabbarVC.swift; sourceTree = "<group>"; };
+		18D38D0D28AD7B90008B4CAC /* HomeVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeVC.storyboard; sourceTree = "<group>"; };
 		49AE5DDC247652FF00139E2E /* TabbarTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbarTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49AE5DDF247652FF00139E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49AE5DE1247652FF00139E2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +72,8 @@
 				49AE5DE3247652FF00139E2E /* ViewController.swift */,
 				49AE5DF32476543A00139E2E /* TabBarView.swift */,
 				49AE5DF42476543A00139E2E /* TabBarView.xib */,
+				18D38D0C28AD7B90008B4CAC /* HomeTabbarVC.swift */,
+				18D38D0D28AD7B90008B4CAC /* HomeVC.storyboard */,
 				49AE5DE5247652FF00139E2E /* Main.storyboard */,
 				49AE5DE82476530300139E2E /* Assets.xcassets */,
 				49AE5DEA2476530300139E2E /* LaunchScreen.storyboard */,
@@ -133,8 +140,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18D38D1028AD8555008B4CAC /* TabBarView.xib in Resources */,
 				49AE5DEC2476530300139E2E /* LaunchScreen.storyboard in Resources */,
 				49AE5DE92476530300139E2E /* Assets.xcassets in Resources */,
+				18D38D0F28AD7B91008B4CAC /* HomeVC.storyboard in Resources */,
 				49AE5DE7247652FF00139E2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 				49AE5DE0247652FF00139E2E /* AppDelegate.swift in Sources */,
 				49AE5DF52476543A00139E2E /* TabBarView.swift in Sources */,
 				49AE5DE2247652FF00139E2E /* SceneDelegate.swift in Sources */,
+				18D38D0E28AD7B91008B4CAC /* HomeTabbarVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,11 +10,15 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-let tabbarVC: HomeTabbarVC = HomeTabbarVC.homeTabbarVC()
-
+//    let tabbarVC: HomeTabbarVC = HomeTabbarVC.homeTabbarVC()
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let navController = UINavigationController(rootViewController: tabbarVC)
+//
+//        tabbarVC.selectedIndex = 1
+//        self.window?.rootViewController = navController
         return true
     }
 

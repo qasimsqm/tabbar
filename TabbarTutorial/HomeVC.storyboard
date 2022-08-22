@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LyZ-Jv-6y6">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="x7e-uB-hHq">
+            <objects>
+                <viewController id="iPv-Fz-BUg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PwC-NI-63G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="techificent.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hEN-3e-r6n">
+                                <rect key="frame" x="128.5" y="323" width="118" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="djj-6u-guf"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                        <constraints>
+                            <constraint firstItem="hEN-3e-r6n" firstAttribute="centerY" secondItem="PwC-NI-63G" secondAttribute="centerY" id="BoP-Fe-LN9"/>
+                            <constraint firstItem="hEN-3e-r6n" firstAttribute="centerX" secondItem="PwC-NI-63G" secondAttribute="centerX" id="ejn-Mk-C7V"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" id="Rzc-1F-yzc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y5L-Wj-0c2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1168.8" y="-203.74812593703149"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="v9D-R3-Qff">
+            <objects>
+                <viewController id="7V8-uA-JTf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HTO-VH-sx9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mindyourcode.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpO-vq-n59">
+                                <rect key="frame" x="114.5" y="323" width="146.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="S6F-1i-Xmy"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="IpO-vq-n59" firstAttribute="centerX" secondItem="HTO-VH-sx9" secondAttribute="centerX" id="3UD-98-cqg"/>
+                            <constraint firstItem="IpO-vq-n59" firstAttribute="centerY" secondItem="HTO-VH-sx9" secondAttribute="centerY" id="lIc-ww-GnN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Discover" id="lcm-C7-Dv1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hMB-sL-9i6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="-648"/>
+        </scene>
+        <!--Favorit-->
+        <scene sceneID="e3L-gP-Pg8">
+            <objects>
+                <viewController id="aId-c8-XbN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4kI-QK-FC2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Gem-FD-vls"/>
+                        <color key="backgroundColor" red="0.1840000004" green="0.51399999860000001" blue="0.32199999689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Favorit" id="9FE-m1-bEW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EYB-NJ-Tu9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="273"/>
+        </scene>
+        <!--Home TabbarVC-->
+        <scene sceneID="ipF-x6-1Kf">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeTabbarVC" id="LyZ-Jv-6y6" customClass="HomeTabbarVC" customModule="TabbarTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" hidden="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yvE-Ft-sWa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.1529411765" green="0.41176470590000003" blue="0.26274509800000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7V8-uA-JTf" kind="relationship" relationship="viewControllers" id="uD9-bh-dQw"/>
+                        <segue destination="iPv-Fz-BUg" kind="relationship" relationship="viewControllers" id="sXN-2y-Cxi"/>
+                        <segue destination="aId-c8-XbN" kind="relationship" relationship="viewControllers" id="1KE-9w-6CM"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GZj-3j-bOh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-618" y="-202"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
